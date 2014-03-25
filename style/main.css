@@ -2,7 +2,11 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #000000;
+  background: url(../img/goku.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   color: #fff;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
@@ -678,7 +682,7 @@ hr {
     display: inline-block;
     vertical-align: middle; }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 645px) {
   html, body {
     font-size: 15px; }
 
@@ -691,7 +695,7 @@ hr {
     margin-top: 15px; }
 
   .container {
-    width: 280px;
+    width: 300px;
     margin: 0 auto; }
 
   .score-container, .best-container {
@@ -712,8 +716,8 @@ hr {
     -moz-user-select: none;
     background: #bbada0;
     border-radius: 6px;
-    width: 280px;
-    height: 280px;
+    width: 300px;
+    height: 300px;
     -ms-touch-action: none;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
